@@ -10,3 +10,10 @@ Pod::Spec.new do |s|
   s.source_files = 'Touchposé Example/Source/**/*.{h,m}'
   s.clean_paths = 'Resources'
 end
+
+  s.source_files = 'Touchposé Example/Source/**/*.{h,m}'
+
+Touchposé\ Example/Source/*.*
+
+**/*.{h,m}
+s.clean_paths = 'Resources'
