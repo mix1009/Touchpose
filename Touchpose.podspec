@@ -6,14 +6,14 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/toddreed/Touchpose'
   s.author = { 'Todd Reed' => 'todd@reed.todd' }
   s.platform = :ios
-  s.source = { :git => 'https://github.com/martinstolz/Touchpose.git', :tag => '1.0.0' }
-  s.source_files = 'Touchposé Example/Source/**/*.{h,m}'
+  s.source = { :git => 'https://github.com/iclems/Touchpose.git', :tag => '1.0.0' }
+  s.source_files = 'TouchposeExample/Source/**/*.{h,m}'
   s.clean_paths = 'Resources'
 end
 
-  s.source_files = 'Touchposé Example/Source/**/*.{h,m}'
+  s.source_files = 'TouchposeExample/Source/**/*.{h,m}'
 
-Touchposé\ Example/Source/*.*
+TouchposeExample/Source/*.*
 
 **/*.{h,m}
 s.clean_paths = 'Resources'
