@@ -8,5 +8,4 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source = { :git => 'https://github.com/iclems/Touchpose.git', :tag => '1.0.0' }
   s.source_files = 'TouchposeExample/Source/**/*.{h,m}'
-  s.clean_paths = 'Resources'
 end
